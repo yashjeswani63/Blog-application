@@ -6,7 +6,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION = false npm install --prefix client && run build --prefix client"
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && run build --prefix client"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
